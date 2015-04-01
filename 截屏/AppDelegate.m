@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "shotScreenViewController.h"
+
 
 @implementation AppDelegate
 
@@ -14,6 +16,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    shotScreenViewController *shotScreenVC = [[shotScreenViewController alloc]init];
+    self.window.rootViewController = shotScreenVC;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

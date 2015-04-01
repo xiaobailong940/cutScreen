@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  shotScreenViewController.h
 //  截屏
 //
 //  Created by PYC/Mr.ma on 14-7-7.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "shotScreenModel.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface shotScreenViewController : UIViewController<passImage>
 
 @end

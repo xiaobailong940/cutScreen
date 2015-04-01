@@ -19,6 +19,10 @@
 		04F77B3D196A7C3D00F732C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F77B25196A7C3D00F732C8 /* UIKit.framework */; };
 		04F77B45196A7C3D00F732C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04F77B43196A7C3D00F732C8 /* InfoPlist.strings */; };
 		04F77B47196A7C3D00F732C8 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F77B46196A7C3D00F732C8 /* __Tests.m */; };
+		04F77B52196A7C7B00F732C8 /* shotScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F77B51196A7C7B00F732C8 /* shotScreenViewController.m */; };
+		04F77B57196A7CB700F732C8 /* showScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F77B56196A7CB700F732C8 /* showScreenView.m */; };
+		04F77B5B196A7F2A00F732C8 /* shotScreenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F77B5A196A7F2A00F732C8 /* shotScreenModel.m */; };
+		80CC27391977B22C0049F478 /* 44副本.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80CC27381977B22C0049F478 /* 44副本.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,13 @@
 		04F77B42196A7C3D00F732C8 /* 截屏Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "截屏Tests-Info.plist"; sourceTree = "<group>"; };
 		04F77B44196A7C3D00F732C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04F77B46196A7C3D00F732C8 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		04F77B50196A7C7B00F732C8 /* shotScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shotScreenViewController.h; sourceTree = "<group>"; };
+		04F77B51196A7C7B00F732C8 /* shotScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shotScreenViewController.m; sourceTree = "<group>"; };
+		04F77B55196A7CB700F732C8 /* showScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showScreenView.h; sourceTree = "<group>"; };
+		04F77B56196A7CB700F732C8 /* showScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showScreenView.m; sourceTree = "<group>"; };
+		04F77B59196A7F2A00F732C8 /* shotScreenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shotScreenModel.h; sourceTree = "<group>"; };
+		04F77B5A196A7F2A00F732C8 /* shotScreenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shotScreenModel.m; sourceTree = "<group>"; };
+		80CC27381977B22C0049F478 /* 44副本.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "44副本.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +88,12 @@
 		04F77B15196A7C3D00F732C8 = {
 			isa = PBXGroup;
 			children = (
+				04F77B58196A7EF200F732C8 /* models */,
+				04F77B54196A7C8C00F732C8 /* views */,
+				04F77B53196A7C8400F732C8 /* controllers */,
+				04F77B50196A7C7B00F732C8 /* shotScreenViewController.h */,
+				04F77B51196A7C7B00F732C8 /* shotScreenViewController.m */,
+				80CC27381977B22C0049F478 /* 44副本.jpg */,
 				04F77B27196A7C3D00F732C8 /* 截屏 */,
 				04F77B40196A7C3D00F732C8 /* 截屏Tests */,
 				04F77B20196A7C3D00F732C8 /* Frameworks */,
@@ -142,6 +159,31 @@
 				04F77B43196A7C3D00F732C8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F77B53196A7C8400F732C8 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		04F77B54196A7C8C00F732C8 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				04F77B55196A7CB700F732C8 /* showScreenView.h */,
+				04F77B56196A7CB700F732C8 /* showScreenView.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		04F77B58196A7EF200F732C8 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				04F77B59196A7F2A00F732C8 /* shotScreenModel.h */,
+				04F77B5A196A7F2A00F732C8 /* shotScreenModel.m */,
+			);
+			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +263,7 @@
 			files = (
 				04F77B2C196A7C3D00F732C8 /* InfoPlist.strings in Resources */,
 				04F77B34196A7C3D00F732C8 /* Images.xcassets in Resources */,
+				80CC27391977B22C0049F478 /* 44副本.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +284,9 @@
 			files = (
 				04F77B32196A7C3D00F732C8 /* AppDelegate.m in Sources */,
 				04F77B2E196A7C3D00F732C8 /* main.m in Sources */,
+				04F77B52196A7C7B00F732C8 /* shotScreenViewController.m in Sources */,
+				04F77B5B196A7F2A00F732C8 /* shotScreenModel.m in Sources */,
+				04F77B57196A7CB700F732C8 /* showScreenView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +485,7 @@
 				04F77B4C196A7C3D00F732C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F77B4D196A7C3D00F732C8 /* Build configuration list for PBXNativeTarget "截屏Tests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +494,7 @@
 				04F77B4F196A7C3D00F732C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
